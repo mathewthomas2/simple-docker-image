@@ -31,46 +31,9 @@ docker run -p 80:8080 simple-docker-image
 Open your browser and visit `http://localhost`
 ---
 ## 🔗 App Routes and Outputs
-|
- Route 
-|
- URL 
-|
- Output 
-|
-|
--------
-|
------
-|
---------
-|
-|
- Home 
-|
-`http://localhost/`
-|
- Hey! I am Mathew. This is my first Docker app! 
-|
-|
- Age 
-|
-`http://localhost/age`
-|
- I'd rather not say! 
-|
-|
- Hobby 
-|
-`http://localhost/hobby`
-|
- I love learning DevOps and breaking things in Kubernetes. 
-|
-|
- Stack 
-|
-`http://localhost/stack`
-|
- Python, Docker, Kubernetes, Linux 
-|
+- **/** → `Hey! I am Mathew. This is my first Docker app!`
+- **/age** → `I'd rather not say!`
+- **/hobby** → `I love learning DevOps and breaking things in Kubernetes.`
+- **/stack** → `Python, Docker, Kubernetes, Linux`
 ---
+
